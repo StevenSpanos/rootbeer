@@ -1,0 +1,18 @@
+body{
+    background-color: #33231F;
+    color: #BF8275;
+}
+.navbar{
+    background-color: #593D36;
+    height:50px;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+}
+#navbutton{
+    background-color: #80574E;
+    border: black;
+    height: 50px;
+    width: 75px;
+    border-radius: 25%;
+}
