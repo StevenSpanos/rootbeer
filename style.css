@@ -16,3 +16,10 @@ body{
     width: 75px;
     border-radius: 25%;
 }
+.members{
+    background-color: #593D36;
+    height:50px;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+}
