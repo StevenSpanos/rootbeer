@@ -1,20 +1,36 @@
 body{
-    background-color: #33231F;
-    color: #BF8275;
+    background-color: rgb(56, 56, 56);
+    color:#959595;
 }
-.navbar{
-    background-color: #593D36;
-    height:50px;
-    width: auto;
+#myNavbar{
+    display:flex;
     justify-content: center;
-    text-align: center;
+    gap:10px;
 }
-#navbutton{
-    background-color: #80574E;
-    border: black;
-    height: 50px;
-    width: 75px;
-    border-radius: 25%;
+#myNavbar a{
+    background-color: #3d3d3d;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    padding: 14px 20px;
+    display: block;
+    transition: 0.1s ease-in-out;
+    text-align: center;
+    border-radius: 5px;
+}
+#myNavbar a:hover{
+    transform: translateY(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#infobox{
+    margin: auto;
+    width: 50%;
+    background-color: #4c4c4c;
+    color: rgb(196, 196, 196);
+    border: #232323;
+    border-radius: 25px;
+    padding: 10px;
 }
 .members{
     background-color: #593D36;
